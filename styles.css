@@ -37,10 +37,12 @@ table {
   	text-align: center;
   	border-style: solid;
   	border-top: 10px solid #808080;
+  	background-image: url("Flag_of_Greece.svg.png");
 }
 
 ol {
 	text-align: center;
+	background-image: url("Flag_of_Greece.svg.png");
 }
 .header {	
  	font-family: "Times New Roman";
