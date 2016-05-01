@@ -18,6 +18,8 @@ fieldset {
 article { 
 	font-family: Helvetica;
   	text-transform: capitalize;
+  	z-index: 1;
+  	background-image: url("Flag_of_Greece.svg.png");
 }
 
 blockquote {	
