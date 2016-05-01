@@ -1,4 +1,16 @@
 
 body {
   background-color: DeepSkyBlue;
+  border-style: ridge;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
 }
+
+fieldset {
+	border-style: double;
+}
+
+article {}
