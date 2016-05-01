@@ -7,6 +7,7 @@ body {
   	margin-top: 10px;
   	text-align: center;
   	width: 100%;
+  	z-index: -1;
 }
 
 fieldset {
@@ -24,7 +25,8 @@ blockquote {
   	text-transform: capitalize;
     display: inline-block;
   	vertical-align: text-top;
-  	background-image: url("https://www.google.com/imgres?imgurl=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/2000px-Flag_of_Greece.svg.png&imgrefurl=https://en.wikipedia.org/wiki/Flag_of_Greece&h=1333&w=2000&tbnid=x0iVArHbkQpzmM:&tbnh=133&tbnw=200&docid=Wxybqx33i3tXOM&itg=1&usg=__293pzWpW5BEHZ-ir93CDL0umAns=");
+  	z-index: 1;
+  	background-image: url("Flag_of_Greece.svg.png");
 }
 
 table {
