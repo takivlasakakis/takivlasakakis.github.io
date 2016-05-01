@@ -1,25 +1,26 @@
 
 body {
-  	background-color: DeepSkyBlue;
+  	background-image: url("Flag_of_Greece.svg.png");
   	border-style: ridge;
   	border-radius: 5px;
   	padding: 5px;
   	margin-top: 10px;
   	text-align: center;
   	width: 100%;
-  	z-index: -1;
+  	z-index: -5;
 }
 
 fieldset {
 	border-style: double;
 	margin: auto; 
+	z-index: -4
 }
 
 article { 
 	font-family: Helvetica;
   	text-transform: capitalize;
-  	z-index: 1;
-  	background-image: url("Flag_of_Greece.svg.png");
+  	z-index: -3;
+
 }
 
 blockquote {	
@@ -27,8 +28,7 @@ blockquote {
   	text-transform: capitalize;
     display: inline-block;
   	vertical-align: text-top;
-  	z-index: 1;
-  	background-image: url("Flag_of_Greece.svg.png");
+
 }
 
 table {
@@ -37,12 +37,12 @@ table {
   	text-align: center;
   	border-style: solid;
   	border-top: 10px solid #808080;
-  	background-image: url("Flag_of_Greece.svg.png");
+  
 }
 
 ol {
 	text-align: center;
-	background-image: url("Flag_of_Greece.svg.png");
+	
 }
 .header {	
  	font-family: "Times New Roman";
